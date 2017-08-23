@@ -1,0 +1,14 @@
+package domains;
+
+import java.util.List;
+
+public class CheckoutRecord {
+	
+	private List<CheckoutRecordEntry> entries;
+	
+	public CheckoutRecord(List<CheckoutRecordEntry> entries) {
+		this.entries = entries;
+	}
+
+	
+}

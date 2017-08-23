@@ -1,0 +1,8 @@
+package domains;
+
+public class Author extends Person{
+	private credential;
+	
+
+}
+ 

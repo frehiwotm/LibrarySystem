@@ -1,0 +1,8 @@
+package domains;
+
+public class CheckoutRecordEntry {
+	
+	private String checkoutDate;
+	private String dueDate;
+
+}

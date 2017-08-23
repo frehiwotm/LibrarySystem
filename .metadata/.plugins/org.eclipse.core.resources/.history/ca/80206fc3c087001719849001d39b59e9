@@ -1,0 +1,37 @@
+package domains;
+
+import java.util.List;
+
+public class Author extends Person{
+	
+	private String credential;
+	private List<Book> books;
+		
+	public Author(String fName, String lName, String phone, Book book) {
+		super(fName, lName, phone);
+		add(book);
+
+	}
+
+	public String getCredential() {
+		return credential;
+	}
+
+	public void setCredential(String credential) {
+		this.credential = credential;
+	}
+
+	public List<Book> getBooks() {
+		return books;
+	}
+
+	public void setBooks(List<Book> books) {
+		this.books = books;
+	}
+	
+	public void addBooks(Book book) {
+		books.add(book);
+	}
+
+}
+ 

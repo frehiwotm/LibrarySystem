@@ -1,0 +1,14 @@
+package domains;
+
+public class Author extends Person{
+	private String credential;
+	
+	public Author(String fName, String lName, String phone) {
+		super(fName, lName, phone);
+
+	}
+	
+	
+
+}
+ 

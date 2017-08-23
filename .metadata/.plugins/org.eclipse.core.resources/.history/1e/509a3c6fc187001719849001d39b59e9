@@ -1,0 +1,20 @@
+package domains;
+
+public class LibraryMember extends Person{
+	
+	private String memId;
+
+	public LibraryMember(String fName, String lName, String phone) {
+		super(fName, lName, phone);
+	}
+
+	
+	public String getMemId() {
+		return memId;
+	}
+
+	public void setMemId(String memId) {
+		this.memId = memId;
+	}
+
+}

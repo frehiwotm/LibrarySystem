@@ -1,0 +1,10 @@
+package domains;
+
+public class BookCopy {
+
+	private String copyNum;
+	private Book book;
+	
+	
+	
+}

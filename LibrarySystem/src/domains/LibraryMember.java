@@ -1,0 +1,41 @@
+package domains;
+
+import java.util.List;
+
+public class LibraryMember extends Person{
+	
+	private String memId;
+	private List<CheckoutRecord> records;
+
+	public LibraryMember(String fName, String lName, String phone, String memId) {
+		super(fName, lName, phone);
+		this.memId = memId;
+	}
+
+	
+	public String getMemId() {
+		return memId;
+	}
+
+	public void setMemId(String memId) {
+		this.memId = memId;
+	}
+
+
+	public List<CheckoutRecord> getRecords() {
+		return records;
+	}
+
+
+	public void setRecords(List<CheckoutRecord> records) {
+		this.records = records;
+	}
+
+	public void addRecord(CheckoutRecord record) {
+		this.records.add(record);
+	}
+	
+	public void addAllRecords(List<CheckoutRecord> records) {
+		this.records.addAll(records);
+	}
+}

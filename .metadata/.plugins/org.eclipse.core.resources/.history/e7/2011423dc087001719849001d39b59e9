@@ -1,0 +1,42 @@
+package domains;
+
+public class Book {
+	private String isbn;
+	private String title;
+	private String maxCheckoutLenght;
+	private List<Author> authors;
+	public Book(String isbn, String title, String maxCheckoutLenght) {
+		super();
+		this.isbn = isbn;
+		this.title = title;
+		this.maxCheckoutLenght = maxCheckoutLenght;
+	}
+
+	public String getIsbn() {
+		return isbn;
+	}
+
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getMaxCheckoutLenght() {
+		return maxCheckoutLenght;
+	}
+
+	public void setMaxCheckoutLenght(String maxCheckoutLenght) {
+		this.maxCheckoutLenght = maxCheckoutLenght;
+	}
+	
+	
+	
+
+}
